@@ -1,0 +1,118 @@
+{
+  "basics": {
+    "name": "William Jonathan Porta",
+    "label": "Programmer",
+    "picture":
+      "https://www.gravatar.com/userimage/25908908/5543574ac6b938ebe4c7f292e9b92790?size=full",
+    "email": "jonathan@jonathanPorta.com",
+    "phone": "(406) 647-0397",
+    "website": "https://jonathan.porta.codes",
+    "summary":
+      "I am incredibly passionate about the user experience, including the operational practices that limit customer's pain through the development process. In this sense, I think of myself first as a user, and secondly as a developer. I thrive on the marriage of exceptional design, solid functionality and reliability. Most recently, I have been stoked about Rails, React, Chef, Go and continuous integration. But I have a long-standing love for AngularJS, test driven development and building games in Unity3D. I like to tinker with electronics and embedded processors. Actually, I like to tinker with almost anything. Most weekends, you can find me exploring new technologies or honing my existing skills.",
+    "location": {
+      "address": "PO BOX 21365",
+      "postalCode": "MT 59104",
+      "city": "Billings",
+      "countryCode": "US",
+      "region": "Montana"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "jonathan_porta",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Pantheon Systems, Inc.",
+      "position": "Senior Software Engineer",
+      "website": "http://pantheon.io",
+      "startDate": "2017-03-01",
+      "endDate": "2018-07-01",
+      "summary":
+        "Deliver new customer facing features as well as significant portions of the backend implementation needed to power those features. This often required integrating with multiple backends and APIs, replacing or refactoring legacy services, and owning uptime and reliability for customer facing systems.",
+      "highlights": [
+        "Took lead to design solutions and lead other engineering members.",
+        "Championed the adoption of solid development standards such as testing, test coverage metrics, building/managing/using continuous integration pipelines and provisioned multi-system services using config management software",
+        "Learned what it means to be a part of a team responsible for infrastructure and software that serves billions of requests per month."
+      ]
+    },
+    {
+      "company": "Pantheon Systems, Inc.",
+      "position": "Software Engineer - Full Stack Jedi",
+      "website": "http://pantheon.io",
+      "startDate": "2014-04-01",
+      "endDate": "2017-03-01",
+      "summary":
+        "As a member of the Applications Team, I was responsible for delivering new customer facing features as well as significant portions of the backend implementation needed to power those features. This often required integrating with multiple backends and APIs, replacing or refactoring legacy services, and owning uptime and reliability for customer facing systems.",
+      "highlights": [
+        "Lead the team in adopting a better development cycle using Kubernetes and local containerization",
+        "Designed, Built, Deployed, Monitored, and Maintained the next generation of multiple key areas of the customers facing ddashboards ",
+        "Rebuilt the realtime messaging and status pipeline for customer notifications"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Rocky Mounntain College",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2007-01-01",
+      "endDate": "2009-01-01",
+      "gpa": "",
+      "description":
+        "I attended part time while in high school, completing all available first and second year classes offered in the Computer Science department. Then, I took several third year courses such as networking, data structures, and assembly. Theses courses helped to solidify my understanding of object oriented programming and helped fill out my knowledge where self-teaching allowed me to overlook details. After high school I focused on full time software development and decided not to finish my degree."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary":
+        "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": ["Mpeg", "MP4", "GIF"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference":
+        "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
