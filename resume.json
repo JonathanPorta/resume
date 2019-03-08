@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "William Jonathan Porta",
+    "name": "William Jonathan Porta (Jonathan)",
     "label": "Senior Software Engineer",
     "email": "jonathan@jonathanPorta.com",
     "phone": "(406) 647-0397",
@@ -14,7 +14,7 @@
     },
     "profiles": [
       {
-        "network": "StackOverflow",
+        "network": "StackOverflow (Top 5% - JavaScript)",
         "username": "Jonathan",
         "url": "https://stackoverflow.com/users/555017/jonathan"
       },
@@ -107,7 +107,7 @@
     {
       "institution": "Rocky Mountain College",
       "area": "Computer Science",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor - Did Not Complete",
       "startDate": "2007-01-01",
       "endDate": "2009-01-01",
       "gpa": "",
@@ -121,35 +121,31 @@
       "name": "Front End",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
         "JavaScript",
         "ES6",
         "React",
         "React Native",
-        "Redux"
+        "Redux",
+        "HTML(5+CSS)"
       ]
     },
     {
-      "name": "Full Stack",
+      "name": "Back End",
       "level": "Master",
-      "keywords": ["Python", "Go", "Node.js"]
-    },
-    {
-      "name": "StackOverflow Contributor",
-      "level": "Top 5% - JavaScript"
+      "keywords": [
+        "Python",
+        "Go",
+        "Node.js",
+        "Django",
+        "Rails",
+        "Shell",
+        "systemd"
+      ]
     }
   ],
-  "languages": [
+  "references": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Real Estate Investing",
-      "keywords": ["Property Rehab", "Rentals"]
+      "name": "Available Upon Request"
     }
   ]
 }
