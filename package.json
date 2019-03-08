@@ -1,6 +1,20 @@
 {
   "dependencies": {
+    "jsonresume-theme-class": "^0.1.2",
+    "jsonresume-theme-classy": "^1.0.9",
+    "jsonresume-theme-elegant": "^1.12.1",
+    "jsonresume-theme-flat": "^0.3.7",
     "jsonresume-theme-kendall": "^0.1.19",
-    "resume-cli": "^1.1.2"
+    "jsonresume-theme-kwan": "0.0.2",
+    "jsonresume-theme-modern": "0.0.18",
+    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-paper": "^0.3.5",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-slick": "^0.1.16",
+    "jsonresume-theme-spartan": "^0.2.1",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "livereload": "^0.7.0",
+    "resume-cli": "git@github.com:jsonresume/resume-cli.git#10c2636a3d32a5d03d77154c5036023904515233",
+    "yarn": "^1.13.0"
   }
 }

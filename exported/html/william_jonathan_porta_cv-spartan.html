@@ -1,0 +1,859 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<title>William Jonathan Porta</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
+	<style>
+		/********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom reset */
+.main-summary p, 
+#publications .item,
+#skills .item,
+#languages .item,
+#references .item,
+#interests .item{
+	margin: 0;
+}
+
+
+/****************
+*		SMARTPHONES		
+****************/
+em {
+	color: #757575;
+}
+p {
+	margin: 1em 0;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+strong {
+	font-weight: 700;
+	font-size: 1.1em;
+}
+ul {
+	margin-top: 1em; 
+}
+div.item {
+	margin: 1em 0 2em;
+	padding-bottom: 2em;
+}
+div.item:last-of-type {
+	margin: 0;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+p {
+	text-align: justify;
+}
+
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+h1 {
+	font-size: 2.5rem;
+}
+h2,
+h3 {
+	font-size: 1rem;
+}
+a {
+	color: #EB5F51;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* Layout */
+body {
+	background: #f2f2f2;
+	line-height: 1.6;
+	font-size: 13px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#resume {
+	padding: 1rem 0;
+	margin: 1rem auto;
+}
+
+#header {
+	padding: 0 1em;
+	margin-bottom: 1em;
+}
+
+#resume > header div {
+	display: table;
+	padding-left: 0.5em;
+}
+
+#resume > header div.middle {
+	padding-top: 1.5em;
+}
+
+header img {
+	display: block;
+	width: 10em;
+	border-radius: 0.275em;
+	float: right;
+	vertical-align: middle;
+}
+
+header .name {
+	line-height: 1;
+}
+
+header .label {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #757575;
+}
+
+section:not(.section) {
+	padding: .5em 1rem;
+}
+
+section#references {
+	border-bottom:none;
+}
+
+section#basics {
+	background: inherit;
+	margin-bottom: 0;
+}
+
+section#skills {
+	padding-bottom: 0;
+}
+
+section#education, 
+section#work, 
+.main-summary section {
+	padding-bottom: 1em;
+}
+
+header::after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+h2.section-title {
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #757575;
+	padding: 1em 1rem 0;
+	margin-bottom: 0.1275em;
+}
+
+.date {
+	font-weight: 700;
+	color: #757575;
+}
+
+.position, .area, .institution {
+	font-weight: 700;
+}
+
+#interests .item, #languages .item {
+	padding: 0 1em 1em 0;
+	border-bottom: none;
+}
+
+.website::before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none;
+	min-width: 1.25em;
+	margin-right: 0.25em;
+	text-align: center;
+	content: '\f14c';
+}
+
+#profiles, #skills, #interests, #languages {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+  padding-bottom: 1em;
+}
+
+#profiles, #location {
+	box-shadow: none;
+	padding: 0;
+}
+
+#profiles .item {
+	margin: 0;
+	padding: 0;
+	padding-right: 1em;
+	border-bottom: none;
+}
+
+#interests ul {
+	margin-top: 0.5em;
+}
+
+#publications .name {
+	font-style: italic;
+}
+
+.courses li, .keywords li{
+	display: inline-block;
+	background: #f0f0f0;
+	font-size: 0.9em;
+	line-height: 1;
+	color: #333;
+	padding: 0.4em 0.8em;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+#publications .date {
+	font-weight: normal;
+	color: #000;	
+}
+
+#skills .item {
+	min-width: 15em;
+	padding: 0 .5em .8em 0;
+	border-bottom: none;
+}
+
+
+/* Skills chart */
+#skills .level .bar {
+	border: 1px solid #ddd;
+	display: block;
+	width: 10em;
+	height: 5px;
+	margin: 0em 0 1em 0;
+	position: relative;
+}
+
+#skills .level .bar::after {
+	position: absolute;
+	content: " ";
+	top: 0;
+	left: 0;
+	background: black;
+	height: 5px;
+}
+
+#skills .level.beginner .bar::after {
+	background: #EB5F51;
+	width: 2.5em;
+} 
+
+#skills .level.intermediate .bar::after {
+	background: #ffdf1f;
+	width: 5em;
+} 
+
+#skills .level.advanced .bar::after {
+	background: #59C596;
+	width: 7.5em;
+} 
+
+#skills .level.master .bar::after {
+	background: #5CB85C;
+	width: 10em;
+}
+
+#references .item {
+	padding-left: 1em;
+	border-left: 5px solid #EB5F51;
+}
+
+.fa.social {
+	margin-right: 0.25em;
+	font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+.google-plus {
+	color: #dd4b39;	
+}
+
+.tumblr {
+	color:#32506d;
+}
+
+.foursquare {
+	color:  #0072b1;
+}
+
+.facebook {
+	color: #3b5998;
+}
+
+.linkedin {
+	color: #007bb6;
+}
+
+.pinterest {
+	color: #cb2027;
+}
+
+.dribbble {
+	color: #ea4c89;
+}
+
+.instagram {
+	color: #517fa4;
+}
+
+.twitter {
+	color: #00aced;
+}
+
+.soundcloud { 
+	color: #ff3a00;
+}
+
+.wordpress {
+	color: #21759b;
+}
+
+.youtube {
+	color: #bb0000;
+}
+
+.github {
+	color: #171515;
+}
+
+.stack-overflow {
+	color: #828386;
+	position: relative;
+}
+
+.flickr {
+	color: #ff0084;
+}      
+
+.stack-overflow::after {
+	position: absolute;
+	left: 0;
+	content: '\f16c';
+	color: #f68a1f;
+	overflow: hidden;
+	height: 40%;
+}
+
+/******************
+*		HELPER CLASSES	
+******************/
+.fa {
+	min-width: 1.25em;
+	margin-right: 0.25em;
+	text-align: center;
+}
+
+.clear {
+	display: table;
+	clear: both;
+}
+
+
+/****************
+*		TABLET
+****************/
+@media screen and (min-width: 602px) { 
+	
+	#resume {
+		width: 550px;
+		margin: 0 auto;
+	}
+	section > header > h3 {
+		float:left;
+	}
+	section > header > .date {
+		float: right;
+		line-height: 1.3;
+	}
+
+}
+
+
+/****************
+*		LAPTOP	
+****************/
+@media screen and (min-width: 1025px) { 
+	
+	#resume {
+		width: 650px;		
+		padding: 3em;
+		margin: 3em auto;
+		background: #fff;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	}
+
+	.section {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		border-bottom: 1px solid #eee;
+	}
+
+	.section:last-of-type {
+		border-bottom: none;
+		margin-bottom: 0;
+	}
+
+	section > header {
+		line-height: 1;
+		padding-bottom: 1em; 
+	}
+
+	h2.section-title {
+		line-height: 1.1;
+		padding-top: 0;
+	}
+
+	section:not(.section) {
+		width: 34.5em;
+		padding: 0 1em 1em 0;
+		margin-top:0;
+		border: none;
+	}
+
+	section p {
+		margin: 0;
+	}
+
+	section#basics {
+		width: auto;
+		padding-top: 1em;
+		padding-left: 1em;
+		padding-bottom: 0;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+	}
+
+	#profiles .item{
+		padding-bottom: 1em;
+	}
+
+	div {
+		padding: 0;
+	}
+
+	#skills .item {
+		padding-left:0;
+		margin-top: 0;
+	}
+
+	div.item {
+		margin-top: 0;
+		border-bottom: 1px solid #eee;
+	}
+
+}
+	</style>
+	
+
+	<body>
+		<div id="resume">
+				<header id="header">
+						<div>
+							<h1 class="name">William Jonathan Porta</h1>
+							<h2 class="label">Senior Software Engineer</h2>
+						</div>
+
+				</header>
+				
+				<section id="basics">
+					
+						<div id="location">
+							<span class="city">
+								Billings
+							</span>
+							<span class="countryCode">
+								(US),
+							</span>
+							<span class="region">
+								Remote - Billings, Montana
+							</span>
+						</div>
+
+					<div id="contact">
+						<div class="website">
+							<a href="https://jonathan.porta.codes">https://jonathan.porta.codes</a>
+						</div>
+						<div class="email">
+							<span class="fa fa-envelope"></span>
+							<a href="mailto:jonathan@jonathanPorta.com">jonathan@jonathanPorta.com</a>
+						</div>
+						<div class="phone">
+							<span class="fa fa-phone-square"></span>
+							(406) 647-0397
+						</div>
+					</div>
+				
+
+					<div id="profiles">
+						<div class="item">
+							<span class="network fa fa-stackoverflow stackoverflow"></span>
+							<span class="username">
+								<span class="url">
+									<a href="https://stackoverflow.com/users/555017/jonathan">Jonathan</a>
+								</span>
+							</span>
+						</div>
+						<div class="item">
+							<span class="network fa fa-twitter twitter"></span>
+							<span class="username">
+								<span class="url">
+									<a href="https://twitter.com/jonathan_porta">jonathan_porta</a>
+								</span>
+							</span>
+						</div>
+						<div class="item">
+							<span class="network fa fa-github github"></span>
+							<span class="username">
+								<span class="url">
+									<a href="https://github.com/JonathanPorta">JonathanPorta</a>
+								</span>
+							</span>
+						</div>
+					</div>
+				</section>
+
+				<section class="section main-summary">
+					<h2 class='section-title'>About</h2>
+					<section>
+						<p>I am passionate about the user experience. I think of myself first as a user, and secondly as a developer. I thrive on the marriage of exceptional design, solid functionality and reliability. Most recently, I have been stoked about Machine Learning, Rails, React, Go and Continuous Integration. I have a long-standing love for Kubernetes, test driven development, tinkering with electronics and embedded processors, and building games in Unity3D. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.</p>
+					</section>
+				</section>
+
+				</section>
+
+				<section class="section">
+					<h2 class='section-title'>Experience</h2>
+					<section id="work">
+						<header>
+							<h3 class="name">
+								Pantheon Systems, Inc.
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									March 2017
+								</span>
+								<span class="endDate">
+									- July 2018
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Senior Software Engineer
+						</div>
+						<div class="website">
+							<a href="https://pantheon.io">https://pantheon.io</a>
+						</div>
+						<div class="summary">
+							<p>As a member of The Core Services Team, I participated in and led the development, deployment, and monitoring of new platform features. I participated in the risk review process and infrastructure capacity monitoring. And, I provided support to other engineers in our operational review process.</p>
+						</div>
+						<ul class="highlights">
+							<li>Acted as tech lead on development of new services.</li>
+							<li>Championed the adoption of solid development standards such as testing, test coverage metrics, building/managing/using continuous integration pipelines and provisioned distributed systems using config management software.</li>
+							<li>Supported Pantheon during growth from 37 employees to over 100 employees as the platform grew from 2Bn requests per month to over 10Bn requests per month.</li>
+							<li>Led the release of our HTTPS Everywhere initiative which provided our customers with free HTTPS and automated certificate management.</li>
+						</ul>
+					</div>
+						<header>
+							<h3 class="name">
+								Pantheon Systems, Inc.
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									April 2014
+								</span>
+								<span class="endDate">
+									- March 2017
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Software Engineer - Full Stack Jedi
+						</div>
+						<div class="website">
+							<a href="https://pantheon.io">https://pantheon.io</a>
+						</div>
+						<div class="summary">
+							<p>As a member of The Applications Team, I was responsible for delivering new customer facing features as well as significant portions of the backend implementation needed to power those features. This often required integrating with multiple backends and APIs, replacing or refactoring legacy services, and owning uptime and reliability for customer facing systems.</p>
+						</div>
+						<ul class="highlights">
+							<li>Led the team in adopting a better development cycle using Kubernetes and local containerization.</li>
+							<li>Designed, built, deployed, monitored, and maintained the next generation of features on the customer facing dashboard.</li>
+							<li>Rebuilt the realtime messaging and status pipeline for customer workflow notifications.</li>
+						</ul>
+					</div>
+						<header>
+							<h3 class="name">
+								Cordillera Communications
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									March 2013
+								</span>
+								<span class="endDate">
+									- March 2014
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Web Developer and Multimedia Content Producer - KTVQ
+						</div>
+						<div class="website">
+							<a href="https://www.cordillera.tv">https://www.cordillera.tv</a>
+						</div>
+						<div class="summary">
+							<p>At the state&#x27;s largest television network, I supported the newsroom&#x27;s content production and dissemenation by maintaining our station&#x27;s CMS and web properties while also building tools for aggregating news content from our sister stations and affiliated networks.</p>
+						</div>
+						<ul class="highlights">
+							<li>Oversaw deployment of a large-scale design refresh on the station&#x27;s primary web property.</li>
+							<li>Built browser extensions to assist journalists&#x27; efforts.</li>
+							<li>Improved usability of the legacy CMS system.</li>
+						</ul>
+					</div>
+						<header>
+							<h3 class="name">
+								Design Delegates, LLC
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									January 2010
+								</span>
+								<span class="endDate">
+									- December 2012
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Software Engineer and Operations
+						</div>
+						<div class="summary">
+							<p>I worked closely with clients to gather project requirements and de-risk projects prior to start of development. I also helped sales with the client acquisition process. And, I was responsible for designing and implementing features along side our geographically distributed development team.</p>
+						</div>
+						<ul class="highlights">
+							<li>Worked as an individual contributor on web projects for international clients.</li>
+							<li>Oversaw the development of Android and iOs applications.</li>
+							<li>Developed code and development quality standards, including code review processes and junior engineer mentorship.</li>
+						</ul>
+					</div>
+						<header>
+							<h3 class="name">
+								OSPenterprises
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									December 2004
+								</span>
+								<span class="endDate">
+									- January 2010
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Software Engineer, Owner
+						</div>
+						<div class="summary">
+							<p>I helped small local businesses automate business processes through the use of custom software. I led a small team of developers and designers through the software planning, building, and release process. We primarily provided web-based software written in PHP and JavaScript.</p>
+						</div>
+						<ul class="highlights">
+							<li>Built over 100 mostly static custom websites for small local businesses.</li>
+							<li>Built and maintained web-based timecard management software.</li>
+							<li>Built small e-commerce stores.</li>
+							<li>Provided ongoing support for hosted products, onsite servers, and phone systems.</li>
+						</ul>
+					</div>
+					</section>
+				</section>
+		
+				<section class="section">
+					<h2 class='section-title'>Education</h2>
+					<section id="education">
+							<header>
+									<h3 class="institution">
+										Rocky Mountain College
+									</h3>
+								<div class="date">
+									<span class="startDate">
+										2007
+									</span>
+									<span class="endDate">
+										- 2009
+									</span>
+								</div>
+							</header>
+							<div class="item">
+									<div class="studyType">
+										Bachelor
+									</div>
+									<div class="area">
+										Computer Science
+									</div>
+							</div>
+					</section>
+				</section>
+		
+			
+
+		
+		
+				<section class="section">
+					<h2 class='section-title'>Skills</h2>
+					<section id="skills">
+						<div class="item">
+							<div class="name">
+								Front End
+							</div>
+							<div class="level master">
+								<em>Master</em>
+								<div class="bar"></div>
+							</div>
+							<ul class="keywords">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+								<li>ES6</li>
+								<li>React</li>
+								<li>React Native</li>
+								<li>Redux</li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="name">
+								Full Stack
+							</div>
+							<div class="level master">
+								<em>Master</em>
+								<div class="bar"></div>
+							</div>
+							<ul class="keywords">
+								<li>Python</li>
+								<li>Go</li>
+								<li>Node.js</li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="name">
+								StackOverflow Contributor
+							</div>
+							<div class="level top 5% - javascript">
+								<em>Top 5% - JavaScript</em>
+								<div class="bar"></div>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<section class="section">
+					<h2 class='section-title'>Languages</h2>
+					<section id="languages">
+						<div class="item">
+							<div class="language">
+								English
+							</div>
+							<div class="fluency">
+								<em>Native speaker</em>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<section class="section">
+					<h2 class='section-title' class='section-title'>Interests</h2>
+					<section id="interests">
+						<div class="item">
+							<div class="name">
+								Real Estate Investing
+							</div>
+							<ul class="keywords">
+								<li>Property Rehab</li>
+								<li>Rentals</li>
+							</ul>
+						</div>
+					</section>
+				</section>
+		
+		</div>		
+	</body>
+	
+</html>

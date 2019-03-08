@@ -1,0 +1,523 @@
+<!doctype html>
+<html>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>William Jonathan Porta - CV</title>
+
+	<style>
+	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* General, overall styling */
+body {
+	background: #F9F9F9;
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 100px;
+}
+
+em {
+	color: #999;
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	color: #31A6D6;
+}
+
+a:visited {
+	color: #3061A5;
+}
+
+a:hover {
+	color: #3061A5;
+}
+
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* End general, overall styling */
+
+/* Header name styling */
+
+header {
+	background: #68B6E3;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	color: #FFFFFF;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header h2 {
+	color: #F3F3F3;
+	font-size: 1em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* End header name styling */
+
+/* Set width of main body of CV */
+.container {
+	max-width: 700px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* End */
+
+/* Styling Basics (Name, Contact, About, Profiles) */
+
+#basics {
+	margin-bottom: 10px;
+	border-top: 1px #E2E2E2 solid;
+	border-bottom: 1px #E2E2E2 solid;
+}
+#basics h3 {
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+}
+#basics .contact strong {
+	line-height: 1.3;
+	float: left;
+	width: 80px;
+}
+
+.contact h3 {
+	padding-bottom: 10px;
+}
+
+.website,
+.email,
+.phone {
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+}
+
+.summary {
+	padding-top: 5px;
+	clear: both;
+}
+
+#profiles {
+	overflow: hidden;
+}
+
+#profiles .item {
+	float: left;
+	width: 50%;
+}
+
+.username{
+	margin-top: 10px;
+}
+
+/* End 'Basics' Styling */
+
+/* Work and volunteering experience styling */
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+	margin-bottom: 10px;
+	float: left;
+	width: 30%;
+}
+
+.courses {
+	clear: both;
+}
+
+.dissertation {
+	margin-top: 10px;
+}
+
+#work,
+#volunteer {
+	padding-bottom: 5px;
+	border-bottom: 1px #E2E2E2 solid;
+}
+
+#work .item,
+#volunteer .item {
+	margin: 25px 0;
+}
+
+/* End work and volunteering */
+
+/* Skills, languages, interests and references styling */
+
+#skills {
+	margin-bottom: 10px;
+	border-bottom: 1px #E2E2E2 solid;
+	padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+	margin: 0 0 25px 0;
+}
+
+#interests .item {
+	margin-bottom: 25px;
+}
+
+#skills {
+	overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+#references,
+#interests {
+	clear: both;
+}
+
+/* End styling */
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header>
+	<h1>William Jonathan Porta</h1>
+	<h2>Senior Software Engineer</h2>
+	</header>
+
+	<div id="content" class="container">
+	<section id="basics">
+		<div class="contact">
+		<h3>Contact</h3>
+		<div class="website">
+			<strong>Website</strong>
+			https://jonathan.porta.codes
+		</div>
+		<div class="email">
+			<strong>Email</strong>
+			jonathan@jonathanPorta.com
+		</div>
+		<div class="phone">
+			<strong>Phone</strong>
+			(406) 647-0397
+		</div>
+		</div>
+		<div class="summary">
+			<h3>About</h3>
+			<p>I am passionate about the user experience. I think of myself first as a user, and secondly as a developer. I thrive on the marriage of exceptional design, solid functionality and reliability. Most recently, I have been stoked about Machine Learning, Rails, React, Go and Continuous Integration. I have a long-standing love for Kubernetes, test driven development, tinkering with electronics and embedded processors, and building games in Unity3D. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.</p>
+		</div>
+		<section id="profiles">
+			<div class="item">
+				<strong class="network">
+					StackOverflow
+				</strong>
+				<div class="url">
+					<a href="https://stackoverflow.com/users/555017/jonathan">
+						Jonathan
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Twitter
+				</strong>
+				<div class="url">
+					<a href="https://twitter.com/jonathan_porta">
+						jonathan_porta
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					GitHub
+				</strong>
+				<div class="url">
+					<a href="https://github.com/JonathanPorta">
+						JonathanPorta
+					</a>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<section id="work">
+		<h2>Work</h2>
+		<div class="item">
+			<h3 class="work_name">
+				Pantheon Systems, Inc.
+			</h3>
+			
+			<div class="work_position">
+				Senior Software Engineer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2017-03-01
+				</span>
+				<span class="endDate">
+					- 2018-07-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://pantheon.io">https://pantheon.io</a>
+			</div>
+
+
+			<div class="summary">
+				<p>As a member of The Core Services Team, I participated in and led the development, deployment, and monitoring of new platform features. I participated in the risk review process and infrastructure capacity monitoring. And, I provided support to other engineers in our operational review process.</p>
+			</div>
+			<ul class="highlights">
+				<li>Acted as tech lead on development of new services.</li>
+				<li>Championed the adoption of solid development standards such as testing, test coverage metrics, building/managing/using continuous integration pipelines and provisioned distributed systems using config management software.</li>
+				<li>Supported Pantheon during growth from 37 employees to over 100 employees as the platform grew from 2Bn requests per month to over 10Bn requests per month.</li>
+				<li>Led the release of our HTTPS Everywhere initiative which provided our customers with free HTTPS and automated certificate management.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Pantheon Systems, Inc.
+			</h3>
+			
+			<div class="work_position">
+				Software Engineer - Full Stack Jedi
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2014-04-01
+				</span>
+				<span class="endDate">
+					- 2017-03-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://pantheon.io">https://pantheon.io</a>
+			</div>
+
+
+			<div class="summary">
+				<p>As a member of The Applications Team, I was responsible for delivering new customer facing features as well as significant portions of the backend implementation needed to power those features. This often required integrating with multiple backends and APIs, replacing or refactoring legacy services, and owning uptime and reliability for customer facing systems.</p>
+			</div>
+			<ul class="highlights">
+				<li>Led the team in adopting a better development cycle using Kubernetes and local containerization.</li>
+				<li>Designed, built, deployed, monitored, and maintained the next generation of features on the customer facing dashboard.</li>
+				<li>Rebuilt the realtime messaging and status pipeline for customer workflow notifications.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Cordillera Communications
+			</h3>
+			
+			<div class="work_position">
+				Web Developer and Multimedia Content Producer - KTVQ
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2013-03-01
+				</span>
+				<span class="endDate">
+					- 2014-03-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.cordillera.tv">https://www.cordillera.tv</a>
+			</div>
+
+
+			<div class="summary">
+				<p>At the state&#x27;s largest television network, I supported the newsroom&#x27;s content production and dissemenation by maintaining our station&#x27;s CMS and web properties while also building tools for aggregating news content from our sister stations and affiliated networks.</p>
+			</div>
+			<ul class="highlights">
+				<li>Oversaw deployment of a large-scale design refresh on the station&#x27;s primary web property.</li>
+				<li>Built browser extensions to assist journalists&#x27; efforts.</li>
+				<li>Improved usability of the legacy CMS system.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Design Delegates, LLC
+			</h3>
+			
+			<div class="work_position">
+				Software Engineer and Operations
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2010-01-01
+				</span>
+				<span class="endDate">
+					- 2012-12-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>I worked closely with clients to gather project requirements and de-risk projects prior to start of development. I also helped sales with the client acquisition process. And, I was responsible for designing and implementing features along side our geographically distributed development team.</p>
+			</div>
+			<ul class="highlights">
+				<li>Worked as an individual contributor on web projects for international clients.</li>
+				<li>Oversaw the development of Android and iOs applications.</li>
+				<li>Developed code and development quality standards, including code review processes and junior engineer mentorship.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				OSPenterprises
+			</h3>
+			
+			<div class="work_position">
+				Software Engineer, Owner
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2004-12-01
+				</span>
+				<span class="endDate">
+					- 2010-01-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>I helped small local businesses automate business processes through the use of custom software. I led a small team of developers and designers through the software planning, building, and release process. We primarily provided web-based software written in PHP and JavaScript.</p>
+			</div>
+			<ul class="highlights">
+				<li>Built over 100 mostly static custom websites for small local businesses.</li>
+				<li>Built and maintained web-based timecard management software.</li>
+				<li>Built small e-commerce stores.</li>
+				<li>Provided ongoing support for hosted products, onsite servers, and phone systems.</li>
+			</ul>
+		</div>
+	</section>
+
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			
+			<div class="institution">
+				Rocky Mountain College
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					2007-01-01
+				</span>
+				<span class="endDate">
+					- 2009-01-01
+				</span>
+			</div>
+
+
+
+		</div>
+	</section>
+	
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Front End
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>ES6</li>
+				<li>React</li>
+				<li>React Native</li>
+				<li>Redux</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Full Stack
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>Python</li>
+				<li>Go</li>
+				<li>Node.js</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				StackOverflow Contributor
+			</div>
+			<div class="level">
+				<em>Top 5% - JavaScript</em>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages">
+		<h2>Languages</h2>
+		<div class="item">
+			<div class="language">
+				English
+			</div>
+			<div class="level">
+				<em>Native speaker</em>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests">
+		<h2>Interests</h2>
+		<div class="item">
+			<div class="name">
+				Real Estate Investing
+			</div>
+			<ul class="keywords">
+				<li>Property Rehab</li>
+				<li>Rentals</li>
+			</ul>
+		</div>
+	</section>
+	
+	
+	</div>
+	</body>
+</html>
