@@ -5,8 +5,7 @@
     "email": "jonathan@jonathanPorta.com",
     "phone": "(406) 647-0397",
     "website": "https://jonathan.porta.codes",
-    "summary":
-      "I am passionate about the user experience. I think of myself first as a user, and secondly as a developer. I thrive on the marriage of exceptional design, solid functionality and reliability. Most recently, I have been stoked about Machine Learning, Rails, React, Go and Continuous Integration. I have a long-standing love for Kubernetes, test driven development, tinkering with electronics and embedded processors, and building games in Unity3D. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.",
+    "summary": "I am passionate about the user experience. I think of myself first as a user, and secondly as a developer. I thrive on the marriage of exceptional design, solid functionality and reliability. Most recently, I have been stoked about Machine Learning, Rails, React, Go and Continuous Integration. I have a long-standing love for Kubernetes, test driven development, tinkering with electronics and embedded processors, and building games in Unity3D. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.",
     "location": {
       "city": "Billings",
       "countryCode": "US",
@@ -32,13 +31,25 @@
   },
   "work": [
     {
+      "company": "Steemit, Inc.",
+      "position": "Software Engineer",
+      "website": "https://steemit.com",
+      "startDate": "2019-04-08",
+      "endDate": "2019-09-30",
+      "summary": "My primary focus was the creation of new user facing features and maintaining existing functionality within the Blockchain's frontend known as Condenser.",
+      "highlights": [
+        "Championed the rollout and revision of Steemit's advertising system",
+        "Designed, Implemented and Deployed the Steem Proposals System UI allowing Blockchain users to vote on community proposals for funding.",
+        "Implemented UI features in React/Redux/Redux-Saga for the Communities UI release - a major featureset adding many SubReddit like features to the Steemit frontend."
+      ]
+    },
+    {
       "company": "Pantheon Systems, Inc.",
       "position": "Senior Software Engineer",
       "website": "https://pantheon.io",
       "startDate": "2017-03-01",
       "endDate": "2018-07-01",
-      "summary":
-        "As a member of The Core Services Team, I participated in and led the development, deployment, and monitoring of new platform features. I participated in the risk review process and infrastructure capacity monitoring. And, I provided support to other engineers in our operational review process.",
+      "summary": "As a member of The Core Services Team, I participated in and led the development, deployment, and monitoring of new platform features. I participated in the risk review process and infrastructure capacity monitoring. And, I provided support to other engineers in our operational review process.",
       "highlights": [
         "Acted as tech lead on the development of new services.",
         "Championed the adoption of solid development standards such as testing, test coverage metrics, building/managing/using continuous integration pipelines and provisioned distributed systems using config management software.",
@@ -52,8 +63,7 @@
       "website": "https://pantheon.io",
       "startDate": "2014-04-01",
       "endDate": "2017-03-01",
-      "summary":
-        "As a member of The Applications Team, I was responsible for delivering new customer-facing features as well as significant portions of the backend implementation needed to power those features. This often required integrating with multiple backends and APIs, replacing or refactoring legacy services, and owning uptime and reliability for customer-facing systems.",
+      "summary": "As a member of The Applications Team, I was responsible for delivering new customer-facing features as well as significant portions of the backend implementation needed to power those features. This often required integrating with multiple backends and APIs, replacing or refactoring legacy services, and owning uptime and reliability for customer-facing systems.",
       "highlights": [
         "Led the team in adopting a better development cycle using Kubernetes and local containerization.",
         "Designed, built, deployed, monitored, and maintained the next generation of features on the customer-facing dashboard.",
@@ -66,8 +76,7 @@
       "website": "https://www.cordillera.tv",
       "startDate": "2013-03-01",
       "endDate": "2014-03-01",
-      "summary":
-        "At the state's largest television network, I supported the newsroom's content production and dissemination by maintaining our station's CMS and web properties while also building tools for aggregating news content from our sister stations and affiliated networks.",
+      "summary": "At the state's largest television network, I supported the newsroom's content production and dissemination by maintaining our station's CMS and web properties while also building tools for aggregating news content from our sister stations and affiliated networks.",
       "highlights": [
         "Oversaw deployment of a large-scale design refresh on the station's primary web property.",
         "Built browser extensions to assist journalists' efforts.",
@@ -80,8 +89,7 @@
       "website": "",
       "startDate": "2010-01-01",
       "endDate": "2012-12-01",
-      "summary":
-        "I worked closely with clients to gather project requirements and de-risk projects prior to the start of development. I also helped sales with the client acquisition process. And, I was responsible for designing and implementing features alongside our geographically distributed development team.",
+      "summary": "I worked closely with clients to gather project requirements and de-risk projects prior to the start of development. I also helped sales with the client acquisition process. And, I was responsible for designing and implementing features alongside our geographically distributed development team.",
       "highlights": [
         "Worked as an individual contributor on web projects for international clients.",
         "Oversaw the development of Android and iOs applications.",
@@ -94,8 +102,7 @@
       "website": "",
       "startDate": "2004-12-01",
       "endDate": "2010-01-01",
-      "summary":
-        "I helped small local businesses automate business processes through the use of custom software. I led a small team of developers and designers through the software planning, building, and release process. We primarily provided web-based software written in PHP and JavaScript.",
+      "summary": "I helped small local businesses automate business processes through the use of custom software. I led a small team of developers and designers through the software planning, building, and release process. We primarily provided web-based software written in PHP and JavaScript.",
       "highlights": [
         "Built over 100 mostly static custom websites for small local businesses.",
         "Built and maintained web-based timecard management software and small e-commerce stores.",
@@ -111,8 +118,7 @@
       "startDate": "2007-01-01",
       "endDate": "2009-01-01",
       "gpa": "",
-      "description":
-        "I attended part-time while in high school, completing all available first and second-year classes offered in the Computer Science Department. Then, I took several third-year courses such as Networking, Data Structures, and Assembly/HLA. These courses helped to solidify my understanding of programming fundamentals and helped round out my self-taught knowledge. After high school, I focused on full-time software development and decided not to complete a degree."
+      "description": "I attended part-time while in high school, completing all available first and second-year classes offered in the Computer Science Department. Then, I took several third-year courses such as Networking, Data Structures, and Assembly/HLA. These courses helped to solidify my understanding of programming fundamentals and helped round out my self-taught knowledge. After high school, I focused on full-time software development and decided not to complete a degree."
     }
   ],
 
