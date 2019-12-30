@@ -5,7 +5,7 @@
     "email": "jonathan@jonathanPorta.com",
     "phone": "(406) 647-0397",
     "website": "https://jonathan.porta.codes",
-    "summary": "I am passionate about the user experience. I think of myself first as a user, and secondly as a developer. I thrive on the marriage of exceptional design, solid functionality and reliability. Most recently, I have been stoked about Machine Learning, Rails, React, Go and Continuous Integration. I have a long-standing love for Kubernetes, test driven development, tinkering with electronics and embedded processors, and building games in Unity3D. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.",
+    "summary": "Ops obsessed frontend engineer seeks challenge, autonomy and a great team.  Builder of systems serving millions of humans and billions of robots. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.",
     "location": {
       "city": "Billings",
       "countryCode": "US",
@@ -36,11 +36,11 @@
       "website": "https://steemit.com",
       "startDate": "2019-04-08",
       "endDate": "2019-09-30",
-      "summary": "My primary focus was the creation of new user facing features and maintaining existing functionality within the Blockchain's frontend known as Condenser.",
+      "summary": "I build, maintain, release, and monitor all things that are not blockchain; primarily user-facing applications used by our over-1M monthly active users.",
       "highlights": [
-        "Championed the rollout and revision of Steemit's advertising system",
-        "Designed, Implemented and Deployed the Steem Proposals System UI allowing Blockchain users to vote on community proposals for funding.",
-        "Implemented UI features in React/Redux/Redux-Saga for the Communities UI release - a major featureset adding many SubReddit like features to the Steemit frontend."
+        "Championed the rollout and subsequent iteration of Steemit's advertising system resulting in significant revenue.",
+        "Designed, implemented and deployed the Steem Proposals System UI which enables the community to direct blockchain funds towards maintenance and expansion of the blockchain core.",
+        "Implemented UI features in React/Redux/Redux-Saga for the Communities UI release - a major feature-set adding many SubReddit-esque and socially collaborative features to the Steemit frontend."
       ]
     },
     {
