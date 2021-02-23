@@ -31,11 +31,25 @@
   },
   "work": [
     {
+      "company": "Walmart Labs - Walmart Global Tech",
+      "position": "Senior Software Engineer",
+      "website": "https://careers.walmart.com/technology/technology-software-development/walmart-labs",
+      "startDate": "2020-08-01",
+      "endDate": "2021-03-01",
+      "summary": "Provide solutions to engineering team issues worldwide in the form of tooling, consoltation and mentorship.",
+      "highlights": [
+        "Create, deploy, and, maintain tooling to help our worldwide internal customers obtain their technological dreams.",
+        "Provison, maintain, and, troubleshoot multi-cdn deployments of external, Walmart customer-facing products from the edge layer to the backend service provider teams.",
+        "Consult on poper header useage for cache control.",
+        "Ensure, troubleshoot and participate in on-call roation for highly available microservices."
+      ]
+    },
+    {
       "company": "Steemit, Inc.",
-      "position": "Software Engineer",
+      "position": "Full Stack Engineer",
       "website": "https://steemit.com",
       "startDate": "2019-04-08",
-      "endDate": "2019-09-30",
+      "endDate": "2020-02-01",
       "summary": "I build, maintain, release, and monitor all things that are not blockchain; primarily user-facing applications used by our over-1M monthly active users.",
       "highlights": [
         "Championed the rollout and subsequent iteration of Steemit's advertising system resulting in significant revenue.",
