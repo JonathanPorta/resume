@@ -5,7 +5,7 @@
     "email": "jonathan@jonathanPorta.com",
     "phone": "(406) 647-0397",
     "website": "https://jonathan.porta.codes",
-    "summary": "Ops obsessed frontend engineer seeks challenge, autonomy and a great team.  Builder of systems serving millions of humans and billions of robots. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.",
+    "summary": "Ops obsessed full stack engineer seeks challenge, autonomy and a great team.  Builder of systems serving millions of humans and billions of robots. When I am away from my workstation you can find me fixing-up old houses, or tearing apart old vehicles.",
     "location": {
       "city": "Billings",
       "countryCode": "US",
@@ -34,14 +34,14 @@
       "company": "Walmart Labs - Walmart Global Tech",
       "position": "Senior Software Engineer",
       "website": "https://careers.walmart.com/technology/technology-software-development/walmart-labs",
-      "startDate": "2020-08-01",
-      "endDate": "2021-03-01",
-      "summary": "Provide solutions to engineering team issues worldwide in the form of tooling, consoltation and mentorship.",
+      "startDate": "2020-09-01",
+      "endDate": "2021-05-01",
+      "summary": "Provide solutions to engineering team issues worldwide in the form of tooling, consultation, and mentorship.",
       "highlights": [
-        "Create, deploy, and, maintain tooling to help our worldwide internal customers obtain their technological dreams.",
-        "Provison, maintain, and, troubleshoot multi-cdn deployments of external, Walmart customer-facing products from the edge layer to the backend service provider teams.",
-        "Consult on poper header useage for cache control.",
-        "Ensure, troubleshoot and participate in on-call roation for highly available microservices."
+        "Create, deploy, and, maintain tooling to help our worldwide internal customers obtain their technological goals.",
+        "Provision, maintain, and troubleshoot multi-cdn deployments of customer-facing products from the edge layer to the backend service provider teams.",
+        "Consult on proper header useage for cache control.",
+        "Troubleshoot and participate in on-call roation for highly available microservices."
       ]
     },
     {
@@ -50,9 +50,9 @@
       "website": "https://steemit.com",
       "startDate": "2019-04-08",
       "endDate": "2020-02-01",
-      "summary": "I build, maintain, release, and monitor all things that are not blockchain; primarily user-facing applications used by our over-1M monthly active users.",
+      "summary": "I built, maintained, released, and monitored all things that are not blockchain; primarily user-facing applications used by our over-1M monthly active users.",
       "highlights": [
-        "Championed the rollout and subsequent iteration of Steemit's advertising system resulting in significant revenue.",
+        "Championed the rollout and subsequent iteration of Steemit's advertising system resulting in significant increase to revenue.",
         "Designed, implemented and deployed the Steem Proposals System UI which enables the community to direct blockchain funds towards maintenance and expansion of the blockchain core.",
         "Implemented UI features in React/Redux/Redux-Saga for the Communities UI release - a major feature-set adding many SubReddit-esque and socially collaborative features to the Steemit frontend."
       ]
@@ -63,7 +63,7 @@
       "website": "https://pantheon.io",
       "startDate": "2017-03-01",
       "endDate": "2018-07-01",
-      "summary": "As a member of The Core Services Team, I participated in and led the development, deployment, and monitoring of new platform features. I participated in the risk review process and infrastructure capacity monitoring. And, I provided support to other engineers in our operational review process.",
+      "summary": "As a member of The Core Services Team, I participated in and led the development, deployment, and monitoring of new platform features. I participated in the risk review process and infrastructure capacity monitoring. Additionally, I provided support to other engineers in our operational review process.",
       "highlights": [
         "Acted as tech lead on the development of new services.",
         "Championed the adoption of solid development standards such as testing, test coverage metrics, building/managing/using continuous integration pipelines and provisioned distributed systems using config management software.",
@@ -103,7 +103,7 @@
       "website": "",
       "startDate": "2010-01-01",
       "endDate": "2012-12-01",
-      "summary": "I worked closely with clients to gather project requirements and de-risk projects prior to the start of development. I also helped sales with the client acquisition process. And, I was responsible for designing and implementing features alongside our geographically distributed development team.",
+      "summary": "I worked closely with clients to gather project requirements and de-risk projects prior to the start of development. I also helped sales with the client acquisition process. Additionally, I was responsible for designing and implementing features alongside our geographically distributed development team.",
       "highlights": [
         "Worked as an individual contributor on web projects for international clients.",
         "Oversaw the development of Android and iOs applications.",
