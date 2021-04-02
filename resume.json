@@ -38,10 +38,10 @@
       "endDate": "2021-05-01",
       "summary": "Provide solutions to engineering team issues worldwide in the form of tooling, consultation, and mentorship.",
       "highlights": [
-        "Create, deploy, and, maintain tooling to help our worldwide internal customers obtain their technological goals.",
-        "Provision, maintain, and troubleshoot multi-cdn deployments of customer-facing products from the edge layer to the backend service provider teams.",
-        "Consult on proper header useage for cache control.",
-        "Troubleshoot and participate in on-call roation for highly available microservices."
+        "Create, deploy, and, maintain tooling to help our distributed development teams obtain their technological goals.",
+        "Provision, maintain, and troubleshoot multi-cdn deployments of customer-facing products from the edge-layer to the backend service provider teams.",
+        "Mentor engineers in development, deployment, and monitoring best practices",
+        "Troubleshoot incidents and participate in on-call rotation for highly available microservices."
       ]
     },
     {
@@ -50,7 +50,7 @@
       "website": "https://steemit.com",
       "startDate": "2019-04-08",
       "endDate": "2020-02-01",
-      "summary": "I built, maintained, released, and monitored all things that are not blockchain; primarily user-facing applications used by our over-1M monthly active users.",
+      "summary": "I built, maintained, released, and monitored all things that are not blockchain; primarily user-facing applications used by over-1M monthly active users.",
       "highlights": [
         "Championed the rollout and subsequent iteration of Steemit's advertising system resulting in significant increase to revenue.",
         "Designed, implemented and deployed the Steem Proposals System UI which enables the community to direct blockchain funds towards maintenance and expansion of the blockchain core.",
@@ -100,7 +100,7 @@
     {
       "company": "Design Delegates, LLC",
       "position": "Software Engineer and Operations",
-      "website": "",
+      "website": "http://designdelegates.com",
       "startDate": "2010-01-01",
       "endDate": "2012-12-01",
       "summary": "I worked closely with clients to gather project requirements and de-risk projects prior to the start of development. I also helped sales with the client acquisition process. Additionally, I was responsible for designing and implementing features alongside our geographically distributed development team.",
@@ -113,7 +113,7 @@
     {
       "company": "OSPenterprises",
       "position": "Software Engineer, Owner",
-      "website": "",
+      "website": "http://ospenterprises.com",
       "startDate": "2004-12-01",
       "endDate": "2010-01-01",
       "summary": "I helped small local businesses automate business processes through the use of custom software. I led a small team of developers and designers through the software planning, building, and release process. We primarily provided web-based software written in PHP and JavaScript.",

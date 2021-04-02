@@ -7,7 +7,7 @@ pdf_dir=${export_dir}/pdf
 mkdir -p ${html_dir} ${pdf_dir}
 
 # Gotta catch 'em all
-themes=(elegant paper kendall flat modern classy class short slick kwan onepage spartan stackoverflow)
+themes=(elegant paper kendall flat modern classy class short slick onepage spartan stackoverflow)
 
 for theme in ${!themes[*]}
 do
