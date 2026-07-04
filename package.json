@@ -16,6 +16,6 @@
     "livereload": "^0.7.0",
     "resume-cli": "git@github.com:jsonresume/resume-cli.git#10c2636a3d32a5d03d77154c5036023904515233",
     "underscore": "^1.12.1",
-    "yarn": "^1.13.0"
+    "yarn": "^1.22.0"
   }
 }
