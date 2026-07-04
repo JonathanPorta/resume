@@ -13,7 +13,7 @@
     "jsonresume-theme-slick": "^0.1.16",
     "jsonresume-theme-spartan": "^0.2.1",
     "jsonresume-theme-stackoverflow": "^1.4.0",
-    "livereload": "^0.7.0",
+    "livereload": "^0.10.3",
     "resume-cli": "git@github.com:jsonresume/resume-cli.git#10c2636a3d32a5d03d77154c5036023904515233",
     "underscore": "^1.12.1",
     "yarn": "^1.22.0"
