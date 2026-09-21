@@ -1,0 +1,14 @@
+schema: blessed/repo/v1
+
+project: resume
+component: documents
+repo_type: docs-only
+stage: maintenance
+
+stack:
+  - jsonresume
+  - nodejs
+  - bash
+
+standards: []
+capabilities: []
